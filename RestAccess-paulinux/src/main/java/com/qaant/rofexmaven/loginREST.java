@@ -13,7 +13,7 @@ import java.util.Base64;
 
 /**
  *
- * @author pjseoane@qaantcap.com
+ * @author pjseoane@gmail.com
  */
 public final class loginREST {
     

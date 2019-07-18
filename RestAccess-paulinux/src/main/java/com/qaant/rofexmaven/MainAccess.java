@@ -12,7 +12,7 @@ import java.util.Properties;
 
 /**
  * * 
- * @author pjseoane@qaantcap.com
+ * @author pjseoane@gmail.com
  */
 public class MainAccess {
     
