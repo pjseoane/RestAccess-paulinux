@@ -12,7 +12,6 @@ import java.util.Properties;
 
 /**
  * * 
-<<<<<<< Upstream, based on origin/propertiesFile
  * @author pjseoane@gmail.com
  */
 public class MainAccess {
