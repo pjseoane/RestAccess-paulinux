@@ -12,6 +12,7 @@ import java.util.Properties;
 
 /**
  * * 
+<<<<<<< Upstream, based on origin/propertiesFile
  * @author pjseoane@gmail.com
  */
 public class MainAccess {
@@ -50,6 +51,7 @@ public class MainAccess {
         // print outputs
         System.out.println("\nREST Outputs:....");
         System.out.println("\nREST Version:...."+version);
+
         System.out.println("\nTOKEN->>>>>>>>>>:"+loginREST.getToken());
             
         String instruments =loginREST.getInstruments();

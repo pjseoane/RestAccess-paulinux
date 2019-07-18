@@ -14,6 +14,7 @@ import java.util.Base64;
 /**
  *
  * @author pjseoane@gmail.com
+ * @author pjseoane@qaantcap.com
  */
 public final class loginREST {
     
