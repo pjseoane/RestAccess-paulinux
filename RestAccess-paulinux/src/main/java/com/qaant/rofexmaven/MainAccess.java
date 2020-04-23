@@ -22,6 +22,7 @@ public class MainAccess {
     public static String pswd;
     public static String ticker;
     public static String author;
+    public static String version;
     
     public static void main(String[] args) throws Exception{
           
@@ -39,14 +40,16 @@ public class MainAccess {
         pswd            =prop.getProperty("ra.pswd");
         ticker          =prop.getProperty("ra.exampleTicker");
         author          =prop.getProperty("ra.author");
+        version         =prop.getProperty("ra.version");
             
              
-        // loginREST newConnection = new loginREST(); 
+        //loginREST newConnection = new loginREST(); 
         System.out.println("Author :"+author);
             
         
         // print outputs
         System.out.println("\nREST Outputs:....");
+        System.out.println("\nREST Version:...."+version);
         System.out.println("\nTOKEN->>>>>>>>>>:"+loginREST.getToken());
             
         String instruments =loginREST.getInstruments();
